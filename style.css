@@ -1,0 +1,205 @@
+:root{
+    --verde-escuro: #000000;
+    --preto: #b3b3b3;
+    --marrom: #707070;
+    --marrom-escuro: #4d4d4d;
+    --bege: #ffffff;
+    --creme: ##E2DED1;
+    }
+    
+    
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        padding: 0;
+        margin: 0;
+    }
+    
+    p{
+        font-size: large;
+    }
+
+    .header,
+    .navigation{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .header{
+        background-color: var(--marrom-escuro);
+        justify-content: space-between;
+        padding: 0 10%;
+        height: 5rem;
+        box-shadow: 1px 1px 4px black;
+        padding: 0 10%;
+    }
+    
+    .navegacao{
+        gap: 3rem;
+    }
+    
+    .navegacao a{
+        text-decoration: none;
+        color: var(--creme);
+    }
+    
+    body{
+     background-color: var(--marrom);
+      text-align: center;
+     font-size: 20px;
+     color: var(--creme);
+    }
+    
+     .logo img{
+    
+        padding: 1.5rem;
+        border-radius: 50%;
+        height: 2.5rem;
+        width: 2.5rem;
+    
+     }
+    
+     .titulo h1{
+
+        color: rgb(255, 255, 255);
+     }
+
+    h1{
+        font-size: 40px;
+        font-style: bold;
+        text-align: left;
+        margin-left: 30px;
+        padding-block: 20px;
+    }
+
+    img {
+        height: 20rem;
+        width: 20rem;
+        border-radius: 5%;
+    }
+
+    h2{
+        font-size: 2.5rem;
+        text-align: left;
+        margin-block: 1rem;
+        color: var(--verde-escuro);
+    }
+
+    .texto {
+        height: 20rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      
+    .primeiradiv .texto {
+            height: 11rem;
+            width: 30rem;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+          }
+
+    .primeiradiv p {
+        height: 5rem;
+        width: 30rem;
+    }
+
+
+    .primeiradiv {
+        margin-inline: auto;
+        margin-block: 5rem;
+        padding-block: 2.5rem;
+        padding-inline: 3rem;
+        max-width: 70rem;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-color: var(--creme);
+        border-radius: 2.5rem;
+        /border: 1px solid greenyellow;/
+        box-shadow: 0px 0px 7px black;
+        transition: background-color 0.6s ease-in-out;
+    }
+
+    .segundadiv {
+        height: 30rem;
+        margin-inline: auto;
+        margin-block: 5rem;
+        padding-block: 2.5rem;
+        padding-inline: 3rem;
+        max-width: 70rem;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-color: var(--creme);
+        border-radius: 2.5rem;
+        /border: 1px solid greenyellow;/
+        box-shadow: 0px 0px 7px black;
+        transition: background-color 0.6s ease-in-out;
+    }
+
+    
+    .segundadiv p {
+        /border: 1px solid red;/
+        height: 10rem;
+        width: 20rem;
+    }
+
+    .terceiradiv {
+        width: 20rem;
+        margin-inline: auto;
+        margin-block: 5rem;
+        padding-block: 2.5rem;
+        padding-inline: 3rem;
+        max-width: 70rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: var(--creme);
+        border-radius: 2.5rem;
+        //border: 1px solid greenyellow;//
+        box-shadow: 0px 0px 7px black;
+    }
+
+    .terceiradiv img {
+        margin-block: 1.5rem;
+    }
+
+    .primeiradiv, .segundadiv, .terceiradiv {
+        margin-block: 5rem;
+    }
+  
+    .primeiradiv:hover{
+        background-color: var(--bege);
+    }
+
+    .segundadiv:hover {
+        background-color: var(--bege);
+        transition: background-color 0.6s ease-in-out;
+      }    
+      .creditos{
+        background-color: var(--bege);
+        margin-inline: auto;
+        margin-block: 5rem;
+        /border: 1px solid yellow;/
+        height: 5rem;
+        width: 15rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1.5rem;
+        box-shadow: 0px 0px 7px black;
+        transition: background-color 0.6s ease-in-out;
+      }
+
+      .creditos p{
+        font-size: 1rem;
+      }
+
+      .creditos:hover {
+        background-color: var(--bege);
+      }
